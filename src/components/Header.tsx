@@ -1,27 +1,27 @@
-// Layout.tsx or any component that contains your header
-
+import Link from "next/link";
 import React from "react";
+import Image from "next/image";
 
 const Header = () => {
   return (
     <header className="bg-gray-200 text-black p-4 flex justify-between items-center">
       <div className="flex items-center">
-        <img src="../logo.png" alt="Logo" className="h-24 mr-2" />
+        <Image src="../logo.png" alt="Logo" className="h-24 mr-2" />
       </div>
 
       <nav>
         <ul className="flex">
           <li className="mr-4">
-            <a href="/">Home</a>
+            <Link href="/">Home</Link>
           </li>
           <li className="mr-4">
-            <a href="/about">About</a>
+            <Link href="/about">About</Link>
           </li>
           <li className="mr-4">
-            <a href="/services">Services</a>
+            <Link href="/services">Services</Link>
           </li>
           <li>
-            <a href="/contact">Contact</a>
+            <Link href="/contact">Contact</Link>
           </li>
         </ul>
       </nav>

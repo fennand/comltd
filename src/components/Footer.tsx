@@ -1,12 +1,11 @@
-// Footer.tsx
-
+import Image from "next/image";
 import React from "react";
 
 const Footer = () => {
   return (
     <footer className="bg-gray-200 text-black p-4 flex justify-between items-center">
       <div className="flex items-center">
-        <img src="../logo.png" alt="Footer Logo" className="h-16 mr-2" />
+        <Image src="../logo.png" alt="Footer Logo" className="h-16 mr-2" />
       </div>
 
       <div className="text-right">

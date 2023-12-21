@@ -1,5 +1,4 @@
 import { Raleway } from "next/font/google";
-import Link from "next/link";
 import "./globals.css";
 import React from "react";
 import Header from "../components/Header";

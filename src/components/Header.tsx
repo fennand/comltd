@@ -6,7 +6,13 @@ const Header = () => {
   return (
     <header className="bg-gray-200 text-black p-4 flex justify-between items-center">
       <div className="flex items-center">
-        <Image src="../logo.png" alt="Logo" className="h-24 mr-2" />
+        <Image
+          src="/logo.png"
+          alt="Logo"
+          width={200}
+          height={200}
+          className="h-24 mr-2"
+        />
       </div>
 
       <nav>

@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 
-const Home = () => {
+const Page = () => {
   return (
     <main className="flex flex-col items-center justify-center bg-white">
       {/* Logo and Title */}
@@ -55,4 +55,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Page;

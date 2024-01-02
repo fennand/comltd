@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const Services = () => {
   const openPdf = (pdfPath: string): void => {
@@ -18,7 +19,13 @@ const Services = () => {
           className="max-w-xs rounded overflow-hidden shadow-lg mb-4 cursor-pointer"
           onClick={() => openPdf("/camelbattery.pdf")}
         >
-          <img className="w-full" src="../camelbatt.jpg" alt="Card 1" />
+          <Image
+            className="w-full"
+            src="/camelbatt.jpg"
+            alt="Card 1"
+            width={400}
+            height={400}
+          />
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">Camel Batteries</div>
             <p className="text-gray-700 text-base">
@@ -31,7 +38,13 @@ const Services = () => {
           className="max-w-xs rounded overflow-hidden shadow-lg mb-4 cursor-pointer"
           onClick={() => openPdf("/ardent.pdf")}
         >
-          <img className="w-full" src="../ardent.jpg" alt="Card 2" />
+          <Image
+            className="w-full"
+            src="/ardent.jpg"
+            alt="Card 2"
+            width={400}
+            height={400}
+          />
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">Ardent Tyres</div>
             <p className="text-gray-700 text-base">
@@ -44,7 +57,13 @@ const Services = () => {
           className="max-w-xs rounded overflow-hidden shadow-lg mb-4 cursor-pointer"
           onClick={() => openPdf("/path/to/coming_soon.pdf")}
         >
-          <img className="w-full" src="../TBC.jpg" alt="Card 3" />
+          <Image
+            className="w-full"
+            src="/TBC.jpg"
+            alt="Card 3"
+            width={400}
+            height={400}
+          />
           <div className="px-6 py-4">
             <div className="font-bold text-xl mb-2">Coming Soon</div>
             <p className="text-gray-700 text-base">

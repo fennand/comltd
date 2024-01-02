@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const About = () => {
   return (
@@ -25,10 +26,12 @@ const About = () => {
           <div className="max-w-md mx-24 p-4 border border-gray-300 rounded shadow-lg">
             <h3 className="text-xl font-semibold mb-2">Team Member 1 Name</h3>
             <p className="text-gray-500 mb-4">Job Title</p>
-            <img
-              src="/about1.jpg" // Replace with the actual image source
+            <Image
+              src="/about1.jpg"
               alt="Team Member 1"
               className="w-full h-120 object-cover mb-4"
+              width={400}
+              height={400}
             />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
@@ -62,10 +65,12 @@ const About = () => {
           <div className="max-w-md mx-24 p-4 border border-gray-300 rounded shadow-lg">
             <h3 className="text-xl font-semibold mb-2">Team Member 2 Name</h3>
             <p className="text-gray-500 mb-4">Job Title</p>
-            <img
-              src="/about2.jpg" // Replace with the actual image source
+            <Image
+              src="/about2.jpg"
               alt="Team Member 2"
               className="w-full h-120 object-cover mb-4"
+              width={400}
+              height={400}
             />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
@@ -101,10 +106,12 @@ const About = () => {
           <div className="max-w-md mx-24 mb-4 p-4 border border-gray-300 rounded shadow-lg">
             <h3 className="text-xl font-semibold mb-2">Team Member 3 Name</h3>
             <p className="text-gray-500 mb-4">Job Title</p>
-            <img
-              src="/about3.jpg" // Replace with the actual image source
+            <Image
+              src="/about3.jpg"
               alt="Team Member 3"
               className="w-full h-120 object-cover mb-4"
+              width={400}
+              height={400}
             />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
@@ -138,10 +145,12 @@ const About = () => {
           <div className="max-w-md mx-24 mb-4 p-4 border border-gray-300 rounded shadow-lg">
             <h3 className="text-xl font-semibold mb-2">Team Member 4 Name</h3>
             <p className="text-gray-500 mb-4">Job Title</p>
-            <img
-              src="/about4.jpg" // Replace with the actual image source
+            <Image
+              src="/about4.jpg"
               alt="Team Member 4"
               className="w-full h-120 object-cover mb-4"
+              width={400}
+              height={400}
             />
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin

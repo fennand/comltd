@@ -65,7 +65,7 @@ const Services = () => {
             height={400}
           />
           <div className="px-6 py-4">
-            <div className="font-bold text-xl mb-2">Coming Soon</div>
+            <div className="font-bold text-xl mb-2">Upcoming project</div>
             <p className="text-gray-700 text-base">
               Description for Card 3. Yet another sample paragraph.
             </p>

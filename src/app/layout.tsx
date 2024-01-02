@@ -15,7 +15,6 @@ export default function RootLayout({
   return (
     <>
       <Head>
-        <html lang="en" />
         <meta charSet="utf-8" />
         {/* Additional head tags if needed */}
       </Head>

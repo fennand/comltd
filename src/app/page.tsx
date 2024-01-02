@@ -6,7 +6,7 @@ const Page = () => {
     <main className="flex flex-col items-center justify-center bg-white">
       {/* Logo and Title */}
       <div className="text-center mb-8">
-        <Image
+        <img
           src="/logo_image.png"
           alt="Logo image"
           width={300}
@@ -20,7 +20,7 @@ const Page = () => {
 
       {/* Laptop Image and First Paragraph */}
       <div className="flex flex-row items-center mb-8">
-        <Image
+        <img
           src="/laptop.jpg"
           alt="laptop image"
           width={400}
@@ -43,7 +43,7 @@ const Page = () => {
           vel mauris consectetur eleifend. Maecenas quis velit eu nisi auctor
           eleifend. Nam sed nisl sed massa lacinia bibendum. Nam fermentum ac.
         </p>
-        <Image
+        <img
           src="/buildings.jpg"
           alt="buildings image"
           width={400}

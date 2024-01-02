@@ -3,6 +3,7 @@ import "./globals.css";
 import React from "react";
 import Header from "../components/Header";
 import Footer from "../components/Footer";
+import Head from "next/head";
 
 const raleway = Raleway({ subsets: ["latin"] });
 
@@ -12,12 +13,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div className={raleway.className}>
-      <Header />
+    <>
+      <Head>
+        <html lang="en" />
+        <meta charSet="utf-8" />
+        {/* Additional head tags if needed */}
+      </Head>
 
-      <main>{children}</main>
+      <div className={raleway.className}>
+        <Header />
 
-      <Footer />
-    </div>
+        <main>{children}</main>
+
+        <Footer />
+      </div>
+    </>
   );
 }
